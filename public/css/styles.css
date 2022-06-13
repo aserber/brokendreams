@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+/* Header */
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: black;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-solid {
+    font-size: 30px;
+    }
+
+nav{
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    
+}
+
+/* Header */
+
+.images {
+    width: 100%;
+}/*producto,producto*/
+
+article{
+    text-align: center;
+}
+
+.login input /* LOGIN */,
+.register input/*REGISTRO*/{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px solid grey;
+    border: 10px;
+    align-self: center;
+    }
+
+
+.login input[type='submit']/* LOGIN */,
+.register input[type='submit']/*REGISTRO*/{
+    color: #FFF;
+    background-color: #8e582c;  
+    border-radius: 5px;
+}
+
+.login input[type='submit']:hover/* LOGIN */,
+.register input[type='submit']:hover/*REGISTRO*/{
+    background-color: green;
+}
+
+.register input[type='reset']/*REGISTRO*/{
+    color: #FFF;
+    background-color: #8e582c;
+}
+
+.register input[type='reset']:hover/*REGISTRO*/{
+    background-color: red;
+}
+
+.container-registro,
+.container-login{
+    display: flex;
+    text-align: center;
+    border-radius: 3px;
+    align-items: left;
+    justify-content: center;
+  } /*agregue ete contenedor para registro y login*/
+ /*FORMUALRIOS FIN*/
+
+.contenedor {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    
+ }
+
+.contenedor img{
+    width: 100%;
+    height:200px;
+    margin: 30px;
+    border: 2px solid #333;
+    box-shadow: 0 0 0 2px white;
+    flex: auto;
+}
+
+.tu-vieja {
+    margin: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .contenedor img {
+        width: 40%;
+    }    
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor img {
+        width: 50%;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .contenedor img {
+        width: 60%;
+    }    
+}
+
+@media screen and (max-width: 360px) {
+    .contenedor img {
+        width: 95%;
+        height: 95%;
+    }    
+}
+
+.container-login {
+    background-color: #333;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "rock-band",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aserber/rockband.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aserber/rockband/issues"
+  },
+  "homepage": "https://github.com/aserber/rockband#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
